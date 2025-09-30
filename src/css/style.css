@@ -1,0 +1,88 @@
+body {
+    background-color: var(--fundo-tela);
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.social-card {
+    background-color: var(--card);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 30px;
+    width: 310px;
+    height: 488px;
+    border-radius: 10px;
+    gap: 15px;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.imagem {
+    display: flex;
+    align-items: center;
+    max-width: 70px;
+    margin: 0 auto;
+}
+
+.user-info {
+    text-align: center;
+}
+
+.user-info h2 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 8px;
+    
+}
+
+.user-info p {
+    color: var(--hover);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.text {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+}
+
+.social-links li a{
+    display: block;
+    width: 100%;
+    background-color: var(--fundo-link);
+    color: #ffffff;
+    padding: 11px;
+    border-radius: 5px;
+    text-align: center;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    transition: all 0.3s ease;
+}
+
+.social-links li a:hover {
+    background-color: var(--hover);
+    transition: 0.3s;
+}

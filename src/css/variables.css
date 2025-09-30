@@ -1,0 +1,7 @@
+:root {
+    --fundo-tela: hsl(0, 0%, 8%);
+    --card: hsl(0, 0%, 12%);
+    --fundo-link: hsl(0, 0%, 20%);
+
+    --hover: hsl(75, 94%, 57%); 
+}
